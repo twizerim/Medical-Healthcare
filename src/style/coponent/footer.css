@@ -1,0 +1,38 @@
+.footer-container{
+    background-color: #007e85;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.foo-logo{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.foo-logo h1{
+    font-size: 26px;
+    color: aliceblue;
+    
+}
+p{
+    color: aliceblue;
+    width: 288.85px;
+    font-size: 18px;
+}
+@media(max-width:287px){
+    p{
+        width: 200px;
+    }
+}
+.second-div h2{
+    font-size: 20px;
+    color: aliceblue;
+    padding-bottom: 15px;
+}
+li{
+    list-style: none;
+    color: aliceblue;
+    padding-bottom: 10px;
+}
