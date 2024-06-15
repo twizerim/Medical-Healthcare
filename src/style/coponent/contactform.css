@@ -11,12 +11,18 @@
 @media(max-width:730px){
     .form-container form{
         width: 100%;
-        background-color: brown;
     }
 }
 .flex-devision{
     display: flex;
     gap: 20px;
+}
+@media(max-width:730px){
+    .flex-devision{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
 }
 .flex-devision .twinns{
     width: 100%;
@@ -30,4 +36,22 @@
 .division label textarea{
     padding: 10px;
     height: 100px;
+}
+.buto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.form-container form .buto button{
+   background-color: #007e85;
+   width: 30%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.form-container form .buto button i{
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
 }

@@ -4,6 +4,7 @@ import Navbar from "../component/header";
 import "../style/page/service.css"
 import Subscrib from "../component/subscrib";
 import Footer from "../component/footer";
+import Bookappointment from "../component/bookappointment";
 
 export default function Service(){
     return(
@@ -20,6 +21,7 @@ export default function Service(){
                     <span>Learn More</span>
                 </div>
                </div>
+               <Bookappointment/>
                </div>
             </div>
             <div className="home">

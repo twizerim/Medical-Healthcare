@@ -42,6 +42,9 @@ export default function Contactform(){
                          <textarea name="message" id="" placeholder="Type your message"></textarea>
                     </label>
                 </div>
+               <div className="buto">
+               <button type="submit"><i>Submit</i></button>
+               </div>
              </form>
         </div>
     )
