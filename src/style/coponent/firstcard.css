@@ -1,0 +1,62 @@
+.name{
+    color: #007e85;
+    font-size: 24px;
+}
+.position{
+    font-size: 20px;
+    color: #000;
+}
+.explain{
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    color: #000;   
+}
+.pragrap{
+        font-size: 16px;
+        width: 100%;
+        text-align: left;
+        color: #000;   
+}
+.names{
+    color: #007e85;
+}
+.add{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.image{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.subscrib{
+    padding: 2rem;
+}
+.subscrib h1{
+    font-size: 16px;
+    text-align: center;
+    padding: 1rem;
+}
+.subscrib form label input{
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+}
+.subscrib form .get{
+    background-color: #007e85;
+    border-radius: 20px;
+    color: aliceblue;
+}
+.subscrib form{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}

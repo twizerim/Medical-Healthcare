@@ -18,8 +18,13 @@
 }
 p{
     color: aliceblue;
-    width: 288.85px;
     font-size: 18px;
+}
+.one-div{
+    width: 288.89px;
+}
+.one-div p{
+    width: 100%;
 }
 @media(max-width:287px){
     p{

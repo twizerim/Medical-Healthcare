@@ -1,0 +1,33 @@
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.form-container form{
+  width: 60%;
+}
+@media(max-width:730px){
+    .form-container form{
+        width: 100%;
+        background-color: brown;
+    }
+}
+.flex-devision{
+    display: flex;
+    gap: 20px;
+}
+.flex-devision .twinns{
+    width: 100%;
+}
+.division{
+    padding-bottom: 10px;
+}
+.division label ,.division label input,.division label textarea {
+    width: 100%;
+}
+.division label textarea{
+    padding: 10px;
+    height: 100px;
+}

@@ -1,0 +1,82 @@
+
+.welcome{
+    background-image: url("../../assets/background.png");
+    width: 100%;
+    height: 573px;
+    background-position: center;
+    object-fit: cover;
+    position: relative;
+    
+}
+.welcom-content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 4rem;
+    width: 509px;
+    padding-top: 2rem;
+}
+.welcome .text h1 ,.welcome .text p{
+    color: #fff;
+}
+.welcome .text .div .first{
+    background-color: #007e85;
+    width: 185px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.welcome .text .div{
+    display: flex;
+    gap: 14px;
+}
+.welcome .text .div span{
+    border-radius: 20px;
+    background-color: none;
+    border: 1.7px solid #007e85;
+    color: #fff;
+    width: 170px;
+    padding: 4.5px 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.subscrib{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cotheading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.cotheading h1{
+    font-size: 16px;
+}
+.cotheading h2{
+    font-size: 34px;
+}
+@media(max-width:218px){
+    .cotheading h2{
+        font-size: 24px;
+    }
+}
+.cotheading p{
+    color: #000;
+    width: 80%;
+    text-align: center;
+}

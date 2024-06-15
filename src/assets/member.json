@@ -1,0 +1,38 @@
+[
+    { 
+        "profile":"aileen.png",
+        "name":"John Carter",
+        "position":"CEO & CO-FOUNDER",
+        "desciption":"Lorem ipsum dolor sit amet consecte adipiscing elit amet hendrerit pretium nulla sed enim iaculis mi."
+    },
+    {
+        "profile":"charolette.png",
+        "name":"Sophie Moore",
+        "position":"dental specialist",
+        "desciption":"Lorem ipsum dolor sit amet consecte adipiscing elit amet hendrerit pretium nulla sed enim iaculis mi. "
+    },
+    {
+        "profile":"lauralee.png",
+        "name":"Matt Cannon",
+        "position":"orthopedic",
+        "desciption":"Lorem ipsum dolor sit amet consecte adipiscing elit amet hendrerit pretium nulla sed enim iaculis mi. "
+    },
+    {
+        "profile":"rodolfo.png",
+        "name":"Andy Smith",
+        "position":"brain surgeon",
+        "desciption":"Lorem ipsum dolor sit amet consecte adipiscing elit amet hendrerit pretium nulla sed enim iaculis mi. "
+    },
+    {
+        "profile":"aileen.png",
+        "name":"Lily Woods",
+        "position":"heart specialist",
+        "desciption":"Lorem ipsum dolor sit amet consecte adipiscing elit amet hendrerit pretium nulla sed enim iaculis mi. "
+    },
+    {
+        "profile":"elsa.png",
+        "name":"Patrick Meyer",
+        "position":"eye specialist",
+        "desciption":"Lorem ipsum dolor sit amet consecte adipiscing elit amet hendrerit pretium nulla sed enim iaculis mi. "
+    }
+]
