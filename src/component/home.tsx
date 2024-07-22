@@ -4,7 +4,7 @@ import radio from "../assets/radio.png"
 import doctor from "../assets/doctor.png"
 import vector from "../assets/Vector.png"
 import SingleSwitch from "./switchbutton";
-import image from "../assets/image.png"
+// import image from "../assets/image.png"
 import Firstcard from "./firstcard";
 import Secondcard from "./secondcard";
 import Subscrib from "./subscrib";
@@ -82,7 +82,7 @@ export default function Home(){
                 </div>
              </div>
          </div>
-         <div className="content">
+         {/* <div className="content">
              <div className="text">
                 <h1>You have lots of reasons to choose us</h1>
                 <p>Your welcome to our medica and view consultation  and 
@@ -95,7 +95,7 @@ export default function Home(){
              <div className="picture">
                 <img src={image} alt="" />
              </div>
-         </div>
+         </div> */}
          <div className="team">
             <h1 className="membertitle">Meet our team member</h1>
             <p className="teamhed">Lorem ipsum dolor sit amet consectetur adipiscing elit volutpat gravida malesuada quam commodo id integer nam.</p>

@@ -187,24 +187,32 @@ button{
         
     }
 }
-.division{
+.search-form .division{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
-@media(max-width:369px){
-    .division{
-        justify-content: center;
+@media(max-width:1027px){
+    .search-form .division{
+        display: flex;
+        justify-content: space-between;
         align-items: center;
+        flex-wrap: wrap;
     }
 }
 @media(max-width:369px){
-    label{
+    .search-form .division{
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+@media(max-width:369px){
+    .search-form .division label{
         width: 100%;
     }
 }
-input{
+.search-form .division input{
     width: 296px;
     height: 36px;
     padding: 0px 10px;
@@ -212,7 +220,7 @@ input{
     border: 1px solid #007e85;
 }
 @media(max-width:386px){
-    input{
+    .search-form .division input{
         width: 100%;
     }
 }
@@ -220,6 +228,7 @@ input{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 /* ---------------------------------------------------------------------------- */
 .statistic{
@@ -278,18 +287,23 @@ input{
     justify-content: space-between;
     align-items: center;
     padding: 3rem 1rem;
-    flex-wrap: wrap;
+    background-color: #6eab36;
 }
 @media(max-width:963px){
     .content{
       justify-content: center;
       flex-direction: column-reverse;
-      gap: 20px;
+      align-items: center;
     }
 }
 .picture{
     width: 380px;
     height: 300px;
+}
+@media(max-width:936px){
+    .picture{
+        width: 85%;
+    }
 }
 @media(max-width:514px){
     .picture{
@@ -300,12 +314,17 @@ input{
     width: 100%;
     height: 100%;
 }
-
 @media(max-width:963px){
     .text{ width: 100%;}
 }
 .text h1,p{
     width: 455px;
+}
+@media(max-width:639px){
+    .text h1,p{
+        width: 100%;
+        /* background-color: red; */
+    } 
 }
 .text h1{color: #6eab36;padding-bottom: 20px;}
 @media(max-width:514px){
@@ -397,11 +416,18 @@ input{
     transition: transform 7s ease-in-out;
     z-index: 9999;
 }
-
+fieldset{
+    padding: 10px 20px;
+    border-radius: 5px;
+}
 @media(max-width:668px){
     .cardmember,.cardtestmon{
         width: 100%;
     }
+}
+.subscrib form label input{
+    width: 300px;
+    padding: 10px;
 }
 
 

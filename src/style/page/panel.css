@@ -1,0 +1,69 @@
+
+.panel-container{
+    background-color: #007e85;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.left-nav{
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 150px;
+}
+.admin-panel{
+    background-color: aliceblue;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    padding: 20px 30px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation .search form input{
+    background-color: rgba(98, 96, 96, 0.24);
+}
+.search{
+    position: relative;
+    width: 50%;
+}
+.search input{
+  width: 100%;
+  height: 40px;
+  border-radius: 24px;
+}
+.search img{
+    position: absolute;
+    left: 92%;
+    top: 20%;
+}
+.notification{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.activity{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.act-left .admin-card{
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px #fff;
+}
+.admin-card{
+    background-image: linear-gradient(to left,#007e85,#fff);
+    padding: 20px;
+    border-radius: 15px;
+    width: 700px;
+}
